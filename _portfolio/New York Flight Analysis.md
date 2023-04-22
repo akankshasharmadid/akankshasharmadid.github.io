@@ -10,8 +10,3 @@ Our analysis will be carried out by leveraging the nycflights13 dataset. This da
 - [Github Code Repository](https://github.com/akankshasharmadid/R-nycflights13-UA)
 <iframe src="/files/pdf/Sharma Akanksha Milestone 1.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 <iframe src="/files/pdf/SharmaAkankshaUnited_Airlines___NYC_Flight_Delay_Milestone_2.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
-
-
-- [NYC Flight Analysis.pdf](https://github.com/akankshasharmadid/akankshasharmadid.github.io/blob/master/files/pdf/Sharma%20Akanksha%20Milestone%201.pdf)
-- [NYC Flight Hypothesis Testing.pdf](https://github.com/akankshasharmadid/akankshasharmadid.github.io/blob/master/files/pdf/SharmaAkankshaUnited_Airlines___NYC_Flight_Delay_Milestone_2.pdf)
-
