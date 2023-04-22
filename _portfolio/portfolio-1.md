@@ -1,7 +1,7 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Library Management System"
+excerpt: "This project seeks to address the inefficiency of local libraries in Seattle by developing a scalable and efficient library management system. The new system will empower staff to manage essential library functionalities, improve patron experience, and foster a culture of lifelong learning and discovery. This will ultimately result in better library services and a positive impact on the community.<br/>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+
