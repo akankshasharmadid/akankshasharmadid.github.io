@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Akanksha Sharma"
-  avatar           : "pic.jpeg"
+  avatar           : "pic.png"
   bio              : "Data Science Student at Seattle University"
   location         : "Seattle, WA"
   employer         :
@@ -113,7 +113,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "https://www.youtube.com/channel/UCqiZlbTUtOqX7r6Uf4icY0w"
+  youtube          : "https://youtube.com/@datascienceprojectsportfolio"
   wikipedia        :
 
 
