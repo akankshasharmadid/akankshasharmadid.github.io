@@ -4,6 +4,7 @@ excerpt: "This project seeks to address the inefficiency of local libraries in S
 
 ---
 
-{% include_relative  https://github.com/akankshasharmadid/LibraryManagementSystemDBMS/blob/main/README.md %}
+
 - Demo of the application : https://youtu.be/ftsH40Sws6Y
+
 - Github Code Repository : https://github.com/akankshasharmadid/LibraryManagementSystemDBMS
