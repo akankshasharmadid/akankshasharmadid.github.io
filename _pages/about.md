@@ -1,3 +1,4 @@
+{% include base_path %}
 ---
 permalink: /
 title: "About me"
