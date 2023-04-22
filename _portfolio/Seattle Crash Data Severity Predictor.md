@@ -4,6 +4,5 @@ excerpt: "Seattle implemented a Vision Zero initiative in 2015 with the goal of 
 
 ---
 
-{% include_relative  https://github.com/seattlelizzard/CrashSeattle/blob/main/README.md %}
 
 link: https://github.com/seattlelizzard/CrashSeattle
