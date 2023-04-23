@@ -41,7 +41,7 @@ The aim of this research was to predict the use of alcohol and other harmful sub
 
 To better understand the impact of missing data on the dataset, we analyzed the pattern of missing data, as shown in Figure 1. We then used MICE to replace the null values in the dataset, ensuring that our analysis was based on complete data. Our methodology aimed to provide an accurate prediction of alcohol consumption and other substance use, considering all relevant factors and minimizing the impact of missing data on our analysis.
 
-![Figure 1: Number of non-null values for each column out of 5500 records.](images/Fig1Harmful.png)
+![Figure 1: Number of non-null values for each column out of 5500 records.](/images/Fig1Harmful.png)
 
 
 
@@ -49,7 +49,7 @@ To accurately predict alcohol consumption, we employed decision tree models for 
 
 To broaden the scope of our research, we aimed to predict whether an individual will consume alcohol and the age at which they will begin doing so. To achieve this objective, we developed a regression model. Initially, we examined the data to identify any outliers, and we found that some individuals reported consuming alcohol before the age of 7, which is highly improbable. We resolved this issue by replacing such values with 7 as the age indicator when a person first tried drinking alcohol. Furthermore, we examined the distribution of the age at which youth reported their first alcohol consumption, which is presented in Figure 2. We observed that many teenagers tend to take their first sip at the age of 15, and there is a significant number of individuals who have not yet consumed alcohol. To test whether our regression model can accurately forecast this behavior, we will evaluate its performance. In summary, our methodology involves identifying outliers and addressing them, analyzing the distribution of age at which youth consume alcohol, testing our regression model's accuracy, and evaluating its performance.
 
-![Figure 2: Frequency at what age people try their first drink](images/Figure2Harmful.png)
+![Figure 2: Frequency at what age people try their first drink](/images/Figure2Harmful.png)
 
 
 
@@ -61,15 +61,19 @@ Bottom of Form
 
 In a binary classification problem where the task was to predict whether youth would consume alcohol or not, the dataset was found to be imbalanced, with 4138 out of 5550 adult datapoints not consuming alcohol. To address this, we used stratified sampling and considered class imbalance while training various decision tree and ensemble models. Upon training the decision tree model, we discovered that the accuracy of the binary classification was highly dependent on the youth's feelings about attending school, emphasizing the importance of education in predicting alcohol consumption. Moreover, we observed that parental communication about substance use, and the child's accomplishments also had an impact on the decision. Interestingly, the number of school days missed had a relatively lesser impact on the prediction compared to other variables in the dataset. Figure 1 highlights the crucial features for predicting whether a person will consume alcohol or not.
 
-![](RackMultipart20230423-1-1542nq_html_82e64463867b1bfd.png)
+![Figure 3: Importance of features in classifying whether a person will consume alcohol or not.](/images/Figure3Harmful.png)
 
-_Figure 3: Importance of features in classifying whether a person will consume alcohol or not._
 
 We got the same accuracy with pruned tree as a normal decision tree with just one single node. It's worth noting that we achieved a 75.2% accuracy on the test results when predicting whether a person will drink or not. Additionally, it's intriguing to observe that we're encountering the same level of error as the unpruned tree.
 
-![](RackMultipart20230423-1-1542nq_html_e54197ed5c02cd92.png) ![](RackMultipart20230423-1-1542nq_html_e1a3b9c3f41a2960.png)
 
-_Figure 4.a: Pruned tree with accuracy 75.2 Figure 4.b: Cross-Validation accuracy VS tree size_
+| Image 1 | Image 2 |
+| ------- | ------- |
+| ![Figure 4.a: Pruned tree with accuracy 75.2](/images/Figure4.a.png) | ![Figure 4.b: Cross-Validation accuracy VS tree size](/images/Figure4.b.png)|
+
+
+
+ 
 
 Multiclass classification: In the context of multiclass classification, our goal is to determine whether a person will use any form of substance. To achieve this, we have categorized the output into four distinct classes, as previously mentioned.
 
@@ -86,25 +90,24 @@ _Table 1: Multiclass classification output_
 
 After attempting several methods, we discovered that the bagging model was the most effective for this dataset. However, if we had additional information about youth behavior, we could further enhance the accuracy of the model. This can be observed in the confusion matrix, which illustrates the model's performance. It is worth noting that the model performs well in predicting instances where there is no substance use. The model is currently achieving an accuracy rate of 65%.
 
-![](RackMultipart20230423-1-1542nq_html_76565bc637f1cd11.png)
+![Figure 5: Confustion Matrix: Random Forest Classifier](/images/Figure5.png)
 
-_Figure 5: Confustion Matrix: Random Forest Classifier_
+
 
 Regression model: In the context of a regression problem, we were trying to predict the age at which young people will try alcohol for the first time. To accomplish this, we used various models to predict the output. One of the methods we used was pruned decision tree to do regression analysis, which allowed us to predict the age of the first drink with an accuracy of approximately 96.84%, considering the limitations of the data we had.
 
 During our analysis, we found that the "alcohol use" flag in the pruned tree was a significant predictor of the age at which a person started drinking. This means that whether a person has used alcohol or not can have a significant impact on the age at which they try it for the first time. Additionally, we found that the occurrence of serious fights at school or work was the second most important predictor for determining the age of first drink. This suggests that such incidents can have a significant impact on a person's behavior and mental health, potentially leading to long-term health concerns like depression.
 
-![](RackMultipart20230423-1-1542nq_html_c2ee1641e647ff96.png)
+![Figure 6: Regression Decision Tree](/images/Figure6.png)
 
-_Figure 6: Regression Decision Tree_
 
 To visualize our findings, we created a decision tree, which is a tool used to predict outcomes based on different conditions. The tree starts with a condition about whether or not a person has used alcohol. If they have used it very little or not at all, the tree goes to the left and predicts a certain outcome. If they have used alcohol more than a little, the tree goes to the right and looks at whether or not they have been involved in a serious fight at school or work. Based on the different conditions, the tree predicts different outcomes, represented by numerical values.
 
 Our findings were based on data from a sample of 2750 people, and the accuracy of the predictions varied depending on the conditions that applied to each group of people. Overall, our analysis sheds light on important factors that can impact the age at which young people try alcohol for the first time and highlights the importance of considering these factors in prevention and intervention strategies.
 
-![](RackMultipart20230423-1-1542nq_html_d0f209a5f2879288.png)
+![Figure 7: Predicted age value VS Actual Age value](/images/Figure7.png)
 
-_Figure 7: Predicted age value VS Actual Age value_
+
 
 Looking at the pruned decision tree output model graph, we can observe that the predicted values are generally close to the actual values, indicating that our regression model performed well in predicting the age at which a person will try alcohol for the first time, given the limitations of the data.
 
