@@ -3,7 +3,8 @@ title: "Predicting Use of Harmful Substances Based on Parental Involvement, Reli
 excerpt: "Alcohol consumption among youth is a significant public health concern with potentially harmful consequences for both individuals and society. In this study, we aim to predict alcohol consumption among youth using data from the National Survey on Drug Use and Health (NSDUH). The NSDUH is an annual survey that collects data on substance use and related behaviors among individuals aged 12 years and older in the United States. Our attention is directed towards various factors such as religious convictions, the dynamic between parents and their children, academic performance, and engagement in groups aimed at improving self-esteem and problem-solving abilities. By analyzing these factors, we hope to identify potential risk and protective factors that could inform prevention and intervention efforts to reduce alcohol consumption among youth.
 <br/>"
 
----![image](https://user-images.githubusercontent.com/15958972/233843828-f5d7786a-5173-4c9e-9dfb-4b5b180681c2.png)
+---
+
 
 
 
