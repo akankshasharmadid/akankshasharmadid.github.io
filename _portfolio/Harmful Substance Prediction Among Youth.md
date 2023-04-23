@@ -41,7 +41,7 @@ The aim of this research was to predict the use of alcohol and other harmful sub
 
 To better understand the impact of missing data on the dataset, we analyzed the pattern of missing data, as shown in Figure 1. We then used MICE to replace the null values in the dataset, ensuring that our analysis was based on complete data. Our methodology aimed to provide an accurate prediction of alcohol consumption and other substance use, considering all relevant factors and minimizing the impact of missing data on our analysis.
 
-![Figure 1: Number of non-null values for each column out of 5500 records.](Fig1Harmful.png)
+![Figure 1: Number of non-null values for each column out of 5500 records.](images/Fig1Harmful.png)
 
 
 
@@ -49,7 +49,7 @@ To accurately predict alcohol consumption, we employed decision tree models for 
 
 To broaden the scope of our research, we aimed to predict whether an individual will consume alcohol and the age at which they will begin doing so. To achieve this objective, we developed a regression model. Initially, we examined the data to identify any outliers, and we found that some individuals reported consuming alcohol before the age of 7, which is highly improbable. We resolved this issue by replacing such values with 7 as the age indicator when a person first tried drinking alcohol. Furthermore, we examined the distribution of the age at which youth reported their first alcohol consumption, which is presented in Figure 2. We observed that many teenagers tend to take their first sip at the age of 15, and there is a significant number of individuals who have not yet consumed alcohol. To test whether our regression model can accurately forecast this behavior, we will evaluate its performance. In summary, our methodology involves identifying outliers and addressing them, analyzing the distribution of age at which youth consume alcohol, testing our regression model's accuracy, and evaluating its performance.
 
-![Figure 2: Frequency at what age people try their first drink](Figure2Harmful.png)
+![Figure 2: Frequency at what age people try their first drink](images/Figure2Harmful.png)
 
 
 
