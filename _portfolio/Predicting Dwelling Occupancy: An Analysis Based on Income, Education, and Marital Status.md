@@ -24,7 +24,13 @@ Support Vector Machine (SVM) is a maximal margin classifier that requires a line
 β0 + β1X1 + β2X2 + · · · + βpXp = 0
 A point X in p-dimensional space lies on the hyperplane if it satisfies the equation. If β0 + β1X1 + β2X2 + · · · + βpXp is greater than zero, X is on one side of the hyperplane, and if it is less than zero, X is on the other side. However, if data is perfectly separated by the hyperplane, then there can exist infinite number of hyperplanes which separates the data as can be seen by the Figure 1.a. Hence, it becomes important to pick which hyperplane to choose to separate the data which gives rise to concept of the maximal margin hyperplane. It is the optimal hyperplane separating two classes.
 The SVM uses the principle of maximizing the distance between nearest data points from the hyper plane from either class. The distance between the hyperplane and the point is called as margin as shown in Figure 1.b. The more the distance between the margin the better the model is. The nearest data points to the hyperplane are called as the support vectors. The decision of finding the hyperplane is fully governed by subset of the training samples and the support vectors. Therefore, the support vectors play a critical role in determining the position of the hyperplane, and their removal could potentially change the location of the hyperplane. They are very critical in determining the optimal hyperplane.
-![Figure 1.a: Infinite plane to separate the data.](/images/SVM Plane.png)![Figure 1.b Distance between two classes: margin](/images/SVM Margin.png)
+
+![Figure 1.a: Infinite plane to separate the data.](/images/SVM Plane.png)
+Figure 1.a: Infinite plane to separate the data.
+
+![Figure 1.b Distance between two classes: margin](/images/SVM Margin.png)
+Figure 1.b Distance between two classes: margin
+
 SVM's kernel hyperparameter is crucial for model performance, with options including linear, polynomial, and radial kernels. Tuning these hyperparameters can have a significant impact on model accuracy. SVM works best in high-dimensional spaces and with linearly separable data but can struggle with large datasets due to slow training time as we need to calculation which involved find optimal distance. If the data is not linear separable then the Hard Margin SVM won’t work since, we won’t be able to find the optimal hyperplane which separates two classes hence we can adjust the cost parameter or choose a different kernel.
 The polynomial kernel is a type of kernel used in Support Vector Machines (SVMs) that is useful for separating data that is not linearly separable but can be separated by a polynomial function. The basic idea is to transform the input data into a higher-dimensional space where it can be linearly separated, and then build a linear model on top of it to separate the classes.
 The kernel function used in polynomial kernel SVM is defined as K (x, y) = (x * y + c) ^ d, where x and y are input feature vectors, c is a constant, and d is the degree of the polynomial. When d is 1, the polynomial kernel is the same as the linear kernel, and when d is higher, the kernel function maps the data into a higher-dimensional space, making it easier to separate the classes. The value of c is a regularization parameter that controls the tradeoff between the model's ability to fit the training data and its ability to generalize to new data. The degree parameter controls the complexity of the polynomial function used to separate the data. If the degree is too low, the model may not be able to separate the data effectively, while if the degree is too high, the model may overfit the data and perform poorly on new data. Tuning these hyperparameters is important for achieving good performance with polynomial kernel SVMs.
@@ -32,10 +38,12 @@ The RBF kernel (Radial Basis Function) is a popular kernel used in SVM (Support 
 The RBF kernel essentially maps the input data into a higher-dimensional space where it is easier to separate the classes. It does this by measuring the distance between each data point and creating a Gaussian-shaped bump around it. The size of the bump is controlled by a hyperparameter called gamma, and it determines the smoothness of the boundary between the classes.
 After transforming the data into this higher-dimensional space, the SVM algorithm finds a way to draw a separating boundary through the "valleys" between the bumps, which effectively separates the classes. This boundary is called the hyperplane and is defined by a set of weights assigned to each data point.
 In summary, the RBF kernel creates a non-linear decision boundary by transforming the data into a higher-dimensional space and creating Gaussian-shaped bumps around each data point. The SVM algorithm then finds a hyperplane that separates the classes by passing through the "valleys" between the bumps.
+
 **Methodology:**
 
 The aim of this research was to predict if the housing is occupied by owner or rented. The dataset provided a unique challenge as each row represented a dwelling with multiple occupants living in a same home. Please refer to the screenshot which shows how the household data is defined. SERIAL provides a unique identification number for each household in a dwelling and we can see that there are multiple records.
 ![Figure 2: Duplicated rows in the data (3 out of 23 columns) had unique values.](/images/SVM Duplicate Issue.png)
+Figure 2: Duplicated rows in the data (3 out of 23 columns) had unique values.
 Further analysis revealed only 35% (8 out of 23 columns) of the columns had unique values. It’s important to look into these features (Table 1) and see how we want to aggregate the data since; rest of the data is redundant and does not provide any new information. It’s important to deal with the how we are going to deal with the age and marital status column in our dataset. In our dataset, we have taken the maximum value of age, marital status, and average of income since, that’s going to derive the decision if the house is rented or owned by an individual. The reasoning for selecting the maximum value of age is since children cannot own a house. Therefore, it is more appropriate to choose the highest possible value of age.
 
 | **Column** | **Description** |
@@ -65,18 +73,29 @@ It was observed that the model was giving almost similar accuracy with rbf and l
 | Linear | 1 | - | - | 16% | 83.5% |
 | Radial | 100 | 6 | - | 15% | 84.5 % |
 | Poloynomial | 10 | - | 4 | 14% | 97.72 % |
+
 Table 2: SVM computational model output with hyperparameters.
 
 
 ![Fig 3.a: Decision Boundary Surface: Linear](/images/3a.png)
+Fig 3.a: Decision Boundary Surface: Linear
+
 ![Fig 3.b: Decision Boundary Surface: RBF Kernel](/images/3b.png)
+Fig 3.b: Decision Boundary Surface: RBF Kernel
+
 ![Fig 3.c: Decision Boundary Surface: Polynomial Kernel](/images/3c.png)
+Fig 3.c: Decision Boundary Surface: Polynomial Kernel
 
 The model was working well on the test dataset as well. I got the same accuracy and error on the test set as I was getting on training set. It conveys that the model was not overfitting. We can see the decision boundary in Figure 3 for all the three models along with the confusion matrix on Figure 4 and see how model is performing. Since, we can’t plot the higher dimensions on 2D, we will plot the data using Age and Rooms feature from the dataset and then see how the decision boundary is. We can see that somehow the rbf kernel boundary might be overfitting the data.
 
 ![Fig 4.a: Confusion Matrix Linear](/images/4a.png)
+Fig 4.a: Confusion Matrix Linear
+
 ![Fig 4.b: Confusion Matrix RBF](/images/4b.png)
+Fig 4.b: Confusion Matrix RBF
+
 ![Fig 4.c: Confusion Matrix Polynomial](/images/4c.png)
+Fig 4.c: Confusion Matrix Polynomial
 
 The computation result shows the precision, recall, and F1-score of a binary classification model's performance on a dataset can predict class "1: Owned" with 85% precision and identify 93% of actual class "1" instances, while predicting class "2: rented" with 78% precision and identifying 60% of actual class "2" instances. The overall weighted average precision, recall, and F1-score are 0.83, 0.84, and 0.83, respectively, indicating that the model's predictions are correct 83% of the time and it can identify 84% of all instances.
 I certainly believe that there’s still room for the improvement and if we have more features and data then we can perform and tune our model better to classify the data. We could have also tried some more advance techniques to train the data and achieved the higher accuracy.
