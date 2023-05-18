@@ -43,7 +43,9 @@ In summary, the RBF kernel creates a non-linear decision boundary by transformin
 
 The aim of this research was to predict if the housing is occupied by owner or rented. The dataset provided a unique challenge as each row represented a dwelling with multiple occupants living in a same home. Please refer to the screenshot which shows how the household data is defined. SERIAL provides a unique identification number for each household in a dwelling and we can see that there are multiple records.
 ![Figure 2: Duplicated rows in the data (3 out of 23 columns) had unique values.](/images/SVM Duplicate Issue.png)
+
 Figure 2: Duplicated rows in the data (3 out of 23 columns) had unique values.
+
 Further analysis revealed only 35% (8 out of 23 columns) of the columns had unique values. It’s important to look into these features (Table 1) and see how we want to aggregate the data since; rest of the data is redundant and does not provide any new information. It’s important to deal with the how we are going to deal with the age and marital status column in our dataset. In our dataset, we have taken the maximum value of age, marital status, and average of income since, that’s going to derive the decision if the house is rented or owned by an individual. The reasoning for selecting the maximum value of age is since children cannot own a house. Therefore, it is more appropriate to choose the highest possible value of age.
 
 | **Column** | **Description** |
