@@ -2,7 +2,6 @@
 title: "Predicting Dwelling Occupancy: An Analysis Based on Income, Education, and Marital Status"
 excerpt: "In this study, our primary objective was to develop a predictive model to determine whether a dwelling is occupied by its owner or rented out, using a range of significant factors including income, education, and marital status. By accurately classifying the dataset, we aimed to utilize the Support Vector Machine technique, employing both the Radial Basis Function (RBF) and polynomial kernel.
 <br/>"
-
 ---
 
 
