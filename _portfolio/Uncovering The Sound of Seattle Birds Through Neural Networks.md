@@ -77,6 +77,7 @@ To train the model, an optimization algorithm called Adam was employed. It adjus
 **Computational Results:**
 
 Binary Classification: In order to classify the species of Amecro and Barswa, we utilized a neural network model.
+
 |Activation Function |Hidden layers |Cross validation error |Accuracy rate |
 |:----|:----|:----|:----|
 |Sigmoid |1 |52% |74% |
@@ -93,6 +94,7 @@ Binary Classification: In order to classify the species of Amecro and Barswa, we
 | |3 |50% |63% |
 |Softmax |1 |45% |63% |
 | |2 |48% |75% |
+
 Table 1: Cross validation Error and Accuracy for Multiple Hidden Layers and Activation Functions.
 
 The model had an input dimension of 44100 and consisted of a single hidden layer with five neurons. The rectified linear unit (ReLU) activation function was used in the hidden layer. To improve the model's generalization performance, we applied batch normalization and dropout regularization techniques. For binary classification, the output layer had a single neuron with the sigmoid activation function.
