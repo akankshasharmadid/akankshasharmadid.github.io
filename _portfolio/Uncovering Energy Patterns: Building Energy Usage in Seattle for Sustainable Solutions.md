@@ -106,3 +106,12 @@ In conclusion, this study used actual data from the city of Seattle to address t
 **References:**
 
 2021 Building Energy Benchmarking dataset. Retrieved from the Seattle Open Data portal [ https://data.seattle.gov/Community/2021-Building-Energy-Benchmarking/bfsh-nrm6 ]
+
+**Authors**
+- [@Akanksha Sharma](https://github.com/akankshasharmadid)
+    [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akanksha-12831bb1)
+    [![Leetcode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)](https://www.leetcode.com/akanksha185/)
+    
+
+- [@Gokula Chandra ](https://github.com/gokula991)
+  
