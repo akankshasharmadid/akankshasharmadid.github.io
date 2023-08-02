@@ -121,7 +121,7 @@ Let's look at the images where the model is performing well.
 ![Negative Example 3](/images/neg3.png)
 ![Negative Example 4](/images/neg4.png)
 
-![Negative Example 5](images/neg5.png)
+![Negative Example 5](/images/neg5.png)
 
 
 ## Authors
