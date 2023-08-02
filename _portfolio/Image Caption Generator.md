@@ -107,19 +107,19 @@ A new benchmark collection for sentence-based image description and search, cons
 [(Back to top)](#table-of-contents)
 Let's look at the images where the model is performing well. 
 
-![Positive Example 1](images/pos1.png)
-![Positive Example 2](images/pos2.png)
-![Positive Example 3](images/pos3.png)
-![Positive Example 4](images/pos4.png)
-![Positive Example 5](images/pos5.png)
+![Positive Example 1](/images/pos1.png)
+![Positive Example 2](/images/pos2.png)
+![Positive Example 3](/images/pos3.png)
+![Positive Example 4](/images/pos4.png)
+![Positive Example 5](/images/pos5.png)
 
 
 <B>Now, let's take a look at images where the prediction is absurd.  </B>
 
-![Negative Example 1](images/neg1.png)
-![Negative Example 2](images/neg2.png)
-![Negative Example 3](images/neg3.png)
-![Negative Example 4](images/neg4.png)
+![Negative Example 1](/images/neg1.png)
+![Negative Example 2](/images/neg2.png)
+![Negative Example 3](/images/neg3.png)
+![Negative Example 4](/images/neg4.png)
 
 ![Negative Example 5](images/neg5.png)
 
