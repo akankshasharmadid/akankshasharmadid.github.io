@@ -1,7 +1,7 @@
 ---
 title: "Image Caption Generator"
 excerpt: "The core objective of this project is to develop an image caption generator. This software will prove invaluable for individuals with visual impairments, empowering them to generate accurate and descriptive captions for images they cannot see. At the heart of the mission is the commitment to inclusivity and accessibility. It’s important to recognize the challenges faced by individuals with visual impairments in understanding and interacting with the visual world. The software aims to bridge this gap, providing a means for the visually impaired to access and comprehend visual content with the aid of descriptive captions.<br/>"
-
+reading_order: 1
 ---
 
 - [Github Code Repository](https://github.com/akankshasharmadid/Image-Caption-Generator/tree/main)
