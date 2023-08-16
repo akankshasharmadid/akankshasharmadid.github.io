@@ -5,8 +5,6 @@ excerpt: "This Python script utilizes various natural language processing and ma
 ---
 
 
-# Unlocking Answers Across Multiple PDFs: The Langchain Q&A 
-
 This Python script utilizes various natural language processing and machine learning tools to create a conversational system for answering questions related to uploaded PDF documents. The system incorporates tools from the Langchain library to facilitate text processing, embeddings, and conversational chains.
 
 - [Github Code Repository](https://github.com/akankshasharmadid/LangchainPDFQnA)
@@ -33,7 +31,7 @@ This Python script utilizes various natural language processing and machine lear
 
 1. Make sure you have the required packages installed:
 
-   ```bash
+```bash
    pip install streamlit PyPDF2 langchain python-dotenv openai
 
 
@@ -44,7 +42,7 @@ Open a terminal or command prompt and navigate to the directory containing the d
 2. Run the Python script:
 
 
-   ```bash
+```bash
    streamlit run app.py
    
 
