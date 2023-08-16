@@ -1,7 +1,7 @@
 ---
 title: "Predicting Bank Churn Rate"
 excerpt: "This project aims to analyze the trend in tweets related to the recession from October 2022 to December 2022, with a focus on identifying instances of layoffs. The study will use data from tweets during this time period to understand the current state of the recession and any potential impacts on employment.<br/>"
-
+reading_order: 4
 ---
 
 - [Github Code Repository](https://github.com/akankshasharmadid/Bank-Churn-Rate/)
