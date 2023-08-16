@@ -1,6 +1,7 @@
 ---
 title: "Uncovering Energy Patterns: Building Energy Usage in Seattle for Sustainable Solutions"
 excerpt: "The issue of building energy consumption and its environmental impact in Seattle is a pressing concern. This research, based on Seattle’s Building Energy Benchmarking Program, aims to address the problem by developing a sophisticated model that can accurately analyze and forecast energy consumption patterns in various city buildings in Seattle. The study utilized the combination of supervised and unsupervised learning methods such as linear regression, clustering, and dimensionality reduction to discover underlying trends, patterns, and insights hidden in the large data set. By gaining a deep understanding of the dynamics of energy use, the research actively aims to promote sustainable practices, improve informed decision-making, and effectively reduce the environmental impact of building energy use in Seattle in real-time.<br/>"
+reading_order: 5
 ---
 
 - [Github Code Repository](https://github.com/akankshasharmadid/Uncovering-Energy-Patterns-Building-Energy-Usage-in-Seattle-for-Sustainable-Solutions/tree/main)
