@@ -1,6 +1,7 @@
 ---
 title: "Uncovering The Sound of Seattle Birds Through Neural Networks"
 excerpt: "The objective of this research is to classify the bird species based on their chirping sounds, which were recorded in mp3 format. The study utilizes data from the Birdcall competition dataset, sourced from the Xeno-Canto bird sound archive. I have worked on modeling a binary and multi-class classification problem to identify birds based on their chirping sounds. Neural Networks are being used in this case with different activation functions such as Relu, tanh, SoftMax, or Leaky Relu. I have also explored the effectiveness of using a CNN model and transfer learning from other paradigms to accurately classify the sounds of birds.<br/>"
+reading_order: 6
 ---
 
 - [Github Code Repository](https://github.com/akankshasharmadid/UncoveringSoundofSeattleBirds)
