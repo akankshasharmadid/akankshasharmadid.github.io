@@ -1,7 +1,7 @@
 ---
 title: "Unlocking Answers Across Multiple PDFs: The Langchain Q&A "
 excerpt: "This Python script utilizes various natural language processing and machine learning tools to create a conversational system for answering questions related to uploaded PDF documents. The system incorporates tools from the Langchain library to facilitate text processing, embeddings, and conversational chains.<br/>"
-
+reading_order: 0
 ---
 
 
