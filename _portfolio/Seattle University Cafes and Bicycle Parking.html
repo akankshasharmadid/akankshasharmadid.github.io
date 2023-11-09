@@ -3,10 +3,38 @@ title: "Seattle University: Cafes and Bicycle Parking"
 excerpt: "The map for Seattle university <br/>"
 collection: portfolio
 ---
-<h2> Introduction: </h2>
+
+<h2>Code Repository</h2>
+    <p>Explore the code on the <a href="https://github.com/akankshasharmadid/SeattleUniversityMapCafeBicycleParking/tree/main" target="_blank">GitHub Code Repository</a>.</p>
+
+<h2>Table of Contents</h2>
+    <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#dataset">About Dataset</a></li>
+        <li><a href="#map">Seattle University Ma</a></li>
+        <li><a href="#effectiveness">Effectiveness of the graph</a></li>
+        <li><a href="#requirements">Requirements</a></li>        
+        <li><a href="#features">Features</a></li>
+        <li><a href="#configuration">Configuration</a></li>
+        <li><a href="#authors">Authors</a></li>
+    </ul>
+
+<h2 id="introduction"> Introduction: </h2>
+<p><a href="#table-of-contents">(Back to top)</a></p>
 <p align="justify">
 I am currently pursuing my master's degree at Seattle University, I often find it challenging to navigate the campus and locate essential amenities such as cafes and bicycle parking. To address this issue, I decided to make a comprehensive map of Seattle University. This map is designed to assist students, faculty, and visitors in effortlessly navigating the campus, providing a quick and efficient way to locate key areas. The primary focus of this project is to facilitate easy identification of cafes and bicycle parking spaces within the university, enhancing the overall experience for those exploring the campus.
 </p>
+
+
+<h2 id="dataset">About Dataset:</h2>
+<p><a href="#table-of-contents">(Back to top)</a></p>
+<p align="justify">
+The dataset utilized in this project is derived from the Seattle University area. In order to collect information about the university's attributes, the OpenStreetMap (OSM) database was employed. The code makes use of the OSM Python library, particularly the OSMnx package, to extract geospatial data pertaining to parks, buildings, cafes, and cycle parking within the specified boundaries of Seattle University. Parks are identified through the "park" tag, buildings are captured using the "building" tag, cafes are singled out with the "amenity" tag and the value "cafe," and cycle parking locations are extracted through the "amenity" tag with the value "bicycle_parking." The resultant dataset provides a comprehensive overview of these features within Seattle University, furnishing valuable insights into the distribution of parks, buildings, cafes, and cycle parking areas throughout the university campus.
+
+</p>
+
+<h2 id="map">Seattle University Map</h2>
+<p><a href="#table-of-contents">(Back to top)</a></p>
 
 <iframe src="/files/seattleU.html" width="1000" height="1200" id="seattleU-iframe" frameborder="0"></iframe>
 <script>
@@ -23,16 +51,52 @@ I am currently pursuing my master's degree at Seattle University, I often find i
   window.addEventListener('message', resizeIframe);
 </script>
 
-
-
-<h2>About Dataset:</h2>
-<p align="justify">
-The dataset utilized in this project is derived from the Seattle University area. In order to collect information about the university's attributes, the OpenStreetMap (OSM) database was employed. The code makes use of the OSM Python library, particularly the OSMnx package, to extract geospatial data pertaining to parks, buildings, cafes, and cycle parking within the specified boundaries of Seattle University. Parks are identified through the "park" tag, buildings are captured using the "building" tag, cafes are singled out with the "amenity" tag and the value "cafe," and cycle parking locations are extracted through the "amenity" tag with the value "bicycle_parking." The resultant dataset provides a comprehensive overview of these features within Seattle University, furnishing valuable insights into the distribution of parks, buildings, cafes, and cycle parking areas throughout the university campus.
-
-</p>
-<h2>Effectiveness of the graph</h2>
+<h2 id="effectiveness">Effectiveness of the graph</h2>
+<p><a href="#table-of-contents">(Back to top)</a></p>
 <p align="justify">
  
 The chosen graph design in this project, which effectively combines a map-based visualization facilitated by the OSMnx package, aligns seamlessly with the geospatial data extracted from the OpenStreetMap database. By representing parks, buildings, cafes, and cycle parking locations on a map, the audience gains an intuitive understanding of the spatial distribution within the confines of Seattle University. The application of distinct markers for each feature type enhances visual clarity, facilitating easy interpretation of different elements. The strategic use of color-coded differentiation further aids in visual comprehension, with parks colored in green to visually align with their outdoor nature. The simplicity of the design ensures accessibility for both technical and non-technical users, allowing for effortless understanding of the information presented. Moreover, the inclusion of park names, Seattle University boundaries, and cluster markers for bicycle parking, along with cafe names directly on the map, collectively contributes to an efficient and visually appealing means to explore and analyze the distribution of key features within the Seattle University campus. Overall, this graph design maximizes the effectiveness of conveying spatial relationships, offering an accessible and insightful representation of the campus landscape.
 
 </p>
+
+<h2 id="requirements">Requirements</h2>
+    <p><a href="#table-of-contents">(Back to top)</a></p>
+    <p>Make sure you have the following Python libraries installed:</p>
+    <pre><code>pip install pandas altair osmnx folium geopandas ipywidgets</code></pre>
+
+<h2 id="features">Features</h2>
+    <p><a href="#table-of-contents">(Back to top)</a></p>
+    <ul>
+        <li>Geospatial data extraction using OSMnx.</li>
+        <li>Visualization with Folium.</li>
+        <li>Marker clustering for cycle parking points.</li>
+        <li>Displaying building information, including a special marker for the Chapel of Saint Ignatius.</li>
+        <li>Highlighting parks and cafes with polygons and icons.</li>
+        <li>Latitude and longitude information popup.</li>
+    </ul>
+
+    <h2 id="configuration">Configuration</h2>
+    <p><a href="#table-of-contents">(Back to top)</a></p>
+    <p>Modify the code as needed for your specific use case. You can customize the map style, marker icons, and other parameters according to your preferences.</p>
+
+
+ <h2 id="authors">Authors</h2>
+    <p><a href="#table-of-contents">(Back to top)</a></p>
+    <ul>
+        <li><a href="https://github.com/akankshasharmadid" target="_blank">@Akanksha Sharma</a></li>
+        <li><a href="https://www.linkedin.com/in/akanksha-12831bb1" target="_blank"><img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a></li>
+        <li><a href="https://www.leetcode.com/akanksha185/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06" alt="LeetCode"></a></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
