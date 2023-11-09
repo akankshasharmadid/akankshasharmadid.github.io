@@ -8,7 +8,7 @@ collection: portfolio
 I am currently pursuing my master's degree at Seattle University, I often find it challenging to navigate the campus and locate essential amenities such as cafes and bicycle parking. To address this issue, I decided to make a comprehensive map of Seattle University. This map is designed to assist students, faculty, and visitors in effortlessly navigating the campus, providing a quick and efficient way to locate key areas. The primary focus of this project is to facilitate easy identification of cafes and bicycle parking spaces within the university, enhancing the overall experience for those exploring the campus.
 </p>
 
-<iframe src="/files/seattleU.html" width="1000" height="1100" id="seattleU-iframe" frameborder="0"></iframe>
+<iframe src="/files/seattleU.html" width="1000" height="1200" id="seattleU-iframe" frameborder="0"></iframe>
 <script>
   function resizeIframe() {
     const iframe = document.getElementById('seattleU-iframe');
@@ -31,14 +31,8 @@ The dataset utilized in this project is derived from the Seattle University area
 
 </p>
 <h2>Effectiveness of the graph</h2>
-<ul>
-  <li></li>Geographic Visualization: The map provides a visual representation of the locations of food chain restaurants on a geographical map. This makes it easy to see where these restaurants are concentrated and their distribution across a specific area.</li>
+<p align="justify">
+ 
+The chosen graph design in this project, which effectively combines a map-based visualization facilitated by the OSMnx package, aligns seamlessly with the geospatial data extracted from the OpenStreetMap database. By representing parks, buildings, cafes, and cycle parking locations on a map, the audience gains an intuitive understanding of the spatial distribution within the confines of Seattle University. The application of distinct markers for each feature type enhances visual clarity, facilitating easy interpretation of different elements. The strategic use of color-coded differentiation further aids in visual comprehension, with parks colored in green to visually align with their outdoor nature. The simplicity of the design ensures accessibility for both technical and non-technical users, allowing for effortless understanding of the information presented. Moreover, the inclusion of park names, Seattle University boundaries, and cluster markers for bicycle parking, along with cafe names directly on the map, collectively contributes to an efficient and visually appealing means to explore and analyze the distribution of key features within the Seattle University campus. Overall, this graph design maximizes the effectiveness of conveying spatial relationships, offering an accessible and insightful representation of the campus landscape.
 
-  <li>Marker Clustering: By using marker clustering, you can avoid clutter on the map when there are many data points (restaurant locations). This feature groups nearby markers into clusters, which can help you quickly identify areas with a high density of food chain restaurants.</li>
-
-  <li>Tooltip Information: You've added tooltips to the markers, which display the name of each restaurant when you hover over a marker. This allows you to access additional information about each restaurant without cluttering the map with labels, making it easy to identify individual restaurants.</li>
-
-<li>Custom Icons: You've used custom icons for the markers, which can visually distinguish food chain restaurants from other map markers, making it clear which locations are of interest.</li>
-
-<li>Zoom and Pan: The map allows users to zoom in and pan around to explore specific areas of interest in more detail, which can be useful for analyzing the density and distribution of restaurants at different levels of granularity.</li>
-</ul>
+</p>
