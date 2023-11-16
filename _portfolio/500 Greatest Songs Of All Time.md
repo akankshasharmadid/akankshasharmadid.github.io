@@ -52,3 +52,9 @@ Let's find out the name of the songs which are a streak in longer than 30 weeks.
 
 
 ![Top Chartered Songs](/images/TopSongsMostStreak.png)
+
+
+Now, let's see what kind of words are mostly used as a title for the song. 
+
+![Most Frequent Words Used in Song Titles](/images/WordCloudSongs.png)
+
