@@ -9,6 +9,8 @@ excerpt: "The analysis is conducted on the greatest 500 songs of all time. The d
 
 ## Introduction
 
+
+
 ## About Dataset
 
 ### Context
@@ -21,3 +23,10 @@ The dataset includes 500 songs with attributes such as title, description, artis
 The data is taken from Kaggle: (https://www.kaggle.com/datasets/omarhanyy/500-greatest-songs-of-all-time)
 
 ## Exploratory Data Analysis
+
+The dataset contains the songs which picked by the rolling stone magazine. It is interesting to find out that what kind of songs made it to the charts during that
+time.
+
+Let's see the songs by each year
+
+![Songs Trend Over Years](/images/SongChartTrend.png)
