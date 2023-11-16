@@ -48,6 +48,19 @@ Let's also find out the streak of the chart songs over the years and what's the 
 ![Streak in Weeks](/images/StreakinWeeks.png)
 
 Let's find out the name of the songs which are having streak in weeks greater than 30 weeks. 
+<style>
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+   border: none;
+}
+blockquote {
+    border-left: none;
+    padding-left: 10px;
+}
+</style>
+
 
 
 | Artist                | Title            | Streak In Weeks |
