@@ -18,6 +18,6 @@ Rolling Stone is an American monthly magazine that focuses on popular culture. I
 The dataset includes 500 songs with attributes such as title, description, artist, etc.
 
 ### Acknowledgements
-The data is taken from Kaggle:https://www.kaggle.com/datasets/omarhanyy/500-greatest-songs-of-all-time
+The data is taken from Kaggle: (https://www.kaggle.com/datasets/omarhanyy/500-greatest-songs-of-all-time)
 
 ## Exploratory Data Analysis
