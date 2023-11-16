@@ -50,14 +50,12 @@ Let's also find out the streak of the chart songs over the years and what's the 
 Let's find out the name of the songs which are having streak in weeks greater than 30 weeks. 
 
 
-+-----------------------+------------------+-----------------+
-|         Title         |      Artist      | Streak In Weeks |
-+-----------------------+------------------+-----------------+
-|        Hey Ya!        |     OutKast      |       32.0      |
-| How Deep Is Your Love |     Bee Gees     |       33.0      |
-|    Come Go With Me    | The Dell-Vikings |       31.0      |
-|    Ignition (Remix)   |     R. Kelly     |       42.0      |
-|  Under the Boardwalk  |   The Drifters   |       33.0      |
-|   Since U Been Gone   |  Kelly Clarkson  |       46.0      |
-|       The Twist       |  Chubby Checker  |       39.0      |
-+-----------------------+------------------+-----------------+
+| Artist                | Title            | Streak In Weeks |
+|-----------------------|------------------|-----------------|
+| Since U Been Gone     | Kelly Clarkson   | 46              |
+| Ignition (Remix)      | R. Kelly         | 42              |
+| The Twist             | Chubby Checker   | 39              |
+| Under the Boardwalk   | The Drifters     | 33              |
+| How Deep Is Your Love | Bee Gees         | 33              |
+| Hey Ya!               | OutKast          | 32              |
+| Come Go With Me       | The Dell-Vikings | 31              |
