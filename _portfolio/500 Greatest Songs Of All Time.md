@@ -124,7 +124,7 @@ The song "Since U Been Gone" sustained a streak of almost 46 weeks, nearly equiv
 
 Now, let's shift our attention to find the words used in song titles.
 
-![Most Frequent Words Used in Song Titles](/images/WordCloudSongs.png)
+![Most Frequent Words Used in Song Titles](/images/WordCloudSongs1.png)
 
 
 - Words like Love, Feel, Can't, Need, Want, and Talk are frequently used in song titles.
