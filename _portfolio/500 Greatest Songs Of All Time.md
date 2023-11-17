@@ -4,13 +4,20 @@ excerpt: "The analysis is conducted on the greatest 500 songs of all time. The d
 
 ---
 
+## Table of contents
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+- [About Dataset](#dataset)
+- [Exploratory Data Analysis](#eda)
+- [Authors](#authors)
 
 
 ## Introduction
-
+[(Back to top)](#table-of-contents)
 In this analysis, we will explore the top 500 greatest songs of all time, as curated by Rolling Stone magazine. This dataset provides an intriguing opportunity to examine the popularity of songs from the past and observe how the musical landscape has transformed over the years. The analysis aims to shed light on the changing trends in music, highlight renowned artists, and offer insights into the historical context of these influential songs. Through this exploration, we hope to provide a deeper understanding of the evolution of musical preferences and the artists who have left a lasting impact on the industry.
 
 ## About Dataset
+[(Back to top)](#table-of-contents)
 
 ### Context
 Rolling Stone is an American monthly magazine that focuses on popular culture. It was founded in San Francisco, California, in 1967 by Jann Wenner, and the music critic Ralph J. Gleason. And here are their top 500 picks as the greatest songs of all time.
@@ -22,6 +29,7 @@ The dataset includes 500 songs with attributes such as title, description, artis
 The data is taken from Kaggle: (https://www.kaggle.com/datasets/omarhanyy/500-greatest-songs-of-all-time)
 
 ## Exploratory Data Analysis
+[(Back to top)](#table-of-contents)
 
 Let's examine the decades in which songs were released and analyze the trends. Which era saw the greatest prominence of songs, and in which decade did songs make a lasting impact? 
 
@@ -126,6 +134,16 @@ Now, let's shift our attention to find the words used in song titles.
 - Opting for a black background significantly improves text visibility.
 - Moreover, adding an icon that combines a human face with a music symbol introduces a visually appealing element. Observing the icon's enjoyment of the music further reinforces the theme of great songs.
 - Added a blue-colored outline around the word cloud to highlight its shape.
+
+
+
+## Authors
+[(Back to top)](#table-of-contents)
+[(Back to top)](#table-of-contents)
+
+- [@Akanksha Sharma](https://github.com/akankshasharmadid)
+    [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akanksha-12831bb1)
+    [![Leetcode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)](https://www.leetcode.com/akanksha185/)
 
 
 
