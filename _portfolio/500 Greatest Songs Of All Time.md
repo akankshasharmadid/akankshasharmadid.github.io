@@ -7,8 +7,8 @@ excerpt: "The analysis is conducted on the greatest 500 songs of all time. The d
 ## Table of contents
 - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
-- [About Dataset](#dataset)
-- [Exploratory Data Analysis](#eda)
+- [About Dataset](#about-dataset)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Authors](#authors)
 
 
