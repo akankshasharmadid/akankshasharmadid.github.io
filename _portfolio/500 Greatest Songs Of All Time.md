@@ -122,8 +122,10 @@ Now, let's shift our attention to find the words used in song titles.
 - Words like Love, Feel, Can't, Need, Want, and Talk are frequently used in song titles.
 
 ### Design Choice:
-- The title is concise and effectively communicates the purpose of the word cloud.
-- The decision to use a white background enhances text visibility, making it easy to read.
+- The title conveys the words used in to plot the word cloud.
+- Opting for a black background significantly improves text visibility.
+- Moreover, adding an icon that combines a human face with a music symbol introduces a visually appealing element. Observing the icon's enjoyment of the music further reinforces the theme of great songs.
+- Added a blue-colored outline around the word cloud to highlight its shape.
 
 
 
