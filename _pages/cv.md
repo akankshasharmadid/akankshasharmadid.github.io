@@ -16,10 +16,9 @@ output: html_document
 
 - Phone: +1 206-591-9425
 - Email: akankshasharmadid@gmail.com
-- [LinkedIn](LinkedIn_link)
-- [GitHub](GitHub_link)
-- [Leetcode](Leetcode_link)
-- [Website](Website_link)
+- [LinkedIn](https://www.linkedin.com/in/akanksha-12831bb1/)
+- [GitHub](https://github.com/akankshasharmadid)
+
 
 Data Scientist with 4 years of experience in building and deploying ML models and data engineering/ETL pipelines with various tools and technologies, including Python, SQL, and cloud platforms. Proficient in implementing data-driven solutions to real-world business problems using Statistical analysis, Data visualization, and Data management.
 
@@ -56,25 +55,6 @@ December 2016 – January 2017
 
 ## PROJECTS
 
-### Seattle Crash Data Severity Predictor
-[Link to Project](Project_link)
-
-- Developed a Crash Severity Predictor using Random Forest and Logistic Regression (Lasso) models using location, vehicle density, light, weather, and road conditions as features.
-- Improved the accuracy of the model to 98% from 76% by (1) imputing 10% missing data using FancyImputer, KNN Imputer and (2) K-cross validation and hyperparameter tuning.
-
-### Predicting Use of Harmful Substances Based on Parental Involvement, Religious Beliefs, and Education
-[Link to Project](Project_link)
-
-- Conducted an analysis to determine alcohol, marijuana, or tobacco and at what age individuals are likely to start using them based on parental involvement, religious belief, and education.
-- Results from the analysis: youth’s feelings about attending school, parental communication about substance use, the child’s accomplishments had an impact on the decision to consume these substances.
-- Used Data Imputation (MICE), Stratified Sampling, Decision Trees, Ensemble Methods, Hyperparameter Tuning.
-
-### Image Caption Predictor
-[Link to Project](Project_link)
-
-- Built a model to generate the caption using Flicker8k dataset. Application is developed for individuals with visual impairments.
-- Dual Input for Neural Network: (1) Extracted image features using transfer learning (VGG 16) and (2) An embedding layer with LSTM to capture the long-term context of words within the captions.
-- The model performed well to generate the caption with BLEU score of 0.6.
 
 ## EDUCATION
 
