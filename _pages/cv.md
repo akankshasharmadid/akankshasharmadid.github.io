@@ -1,14 +1,11 @@
 ---
 layout: archive
-title: "CV"
+title: "Akanksha Sharma"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
-
-# Akanksha Sharma
-
 - Email: akankshasharmadid@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/akanksha-12831bb1/)
 - [GitHub](https://github.com/akankshasharmadid)
