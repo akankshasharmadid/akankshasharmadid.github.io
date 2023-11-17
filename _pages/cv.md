@@ -52,7 +52,9 @@ December 2016 – January 2017
 - Led the redesign of data lake architecture for a new web application during migration, using an Entity-Relationship (ER) diagram resulting in efficient data retrieval and reduced deduplication by 75%.
 - Designed a targeted campaign framework, using Google Analytics, to identify focus regions based on website traffic and user behavior for sales and marketing teams, increasing revenue-per-sale by 60%.
 
-## PROJECTS
+## Portfolio
+
+- [Portfolio]([https://github.com/akankshasharmadid](https://akankshasharmadid.github.io/portfolio/))
 
 
 ## EDUCATION
