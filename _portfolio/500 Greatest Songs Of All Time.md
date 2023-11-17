@@ -139,7 +139,6 @@ Now, let's shift our attention to find the words used in song titles.
 
 ## Authors
 [(Back to top)](#table-of-contents)
-[(Back to top)](#table-of-contents)
 
 - [@Akanksha Sharma](https://github.com/akankshasharmadid)
     [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akanksha-12831bb1)
