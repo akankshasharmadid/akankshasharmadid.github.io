@@ -7,11 +7,6 @@ redirect_from:
   - /resume
 ---
 
----
-title: "Akanksha Sharma's Resume"
-output: html_document
----
-
 # Akanksha Sharma
 
 - Email: akankshasharmadid@gmail.com
