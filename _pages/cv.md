@@ -54,7 +54,7 @@ December 2016 – January 2017
 
 ## Portfolio
 
-- Link to my: [Portfolio](https://github.com/akankshasharmadid)
+- Link to my: [Portfolio](https://akankshasharmadid.github.io/portfolio/)
 
 
 ## EDUCATION
