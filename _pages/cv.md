@@ -14,7 +14,6 @@ output: html_document
 
 # Akanksha Sharma
 
-- Phone: +1 206-591-9425
 - Email: akankshasharmadid@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/akanksha-12831bb1/)
 - [GitHub](https://github.com/akankshasharmadid)
