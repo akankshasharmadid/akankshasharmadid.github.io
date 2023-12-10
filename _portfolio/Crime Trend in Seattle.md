@@ -191,10 +191,10 @@ Moreover, the geographical distribution and density analysis revealed that while
 
 ### References:
 
-Seattle Police Department Crime Data: https://data.seattle.gov/Public-Safety/SPD-Crime-Data-2008-Present/tazs-3rd5
-Seattle Geographic Data: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::selected-demographic-and-housing-estimates-dp05/explore
-Seattle GIS: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::community-reporting-areas-3/about
-Seattle Census Dataset: https://data.seattle.gov/dataset/2020-Census-Blocks-Seattle/rg9f-z788/data
+Seattle Police Department Crime Data: https://data.seattle.gov/Public-Safety/SPD-Crime-Data-2008-Present/tazs-3rd5  
+Seattle Geographic Data: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::selected-demographic-and-housing-estimates-dp05/explore  
+Seattle GIS: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::community-reporting-areas-3/about  
+Seattle Census Dataset: https://data.seattle.gov/dataset/2020-Census-Blocks-Seattle/rg9f-z788/data  
 
 
 ### Authors
