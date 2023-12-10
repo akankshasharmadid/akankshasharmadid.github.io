@@ -36,7 +36,7 @@ Over a span of 14 years, the crime statistics exhibit an overall upward trajecto
 The purpose of this graph is to visually depict the trend in crime incidents over the years from 2008 to 2022 in the dataset. The x-axis represents each individual year, while the y-axis quantifies the count of reported crimes. By utilizing a line chart, the graph allows for a clear and intuitive understanding of how the overall volume of crimes has changed over the specified time period. The upward or downward trajectory of the line provides a quick visual assessment of whether crime rates have increased, decreased, or remained relatively stable throughout the years. The chart's simplicity and increased line thickness make it stand out with more clarity and make it an effective tool for communicating complex temporal patterns in crime data to a diverse audience.
 
 We have also made strategic enhancements such as callout text to underscore crime trends. The modified y-axis ticks, where 'k' denotes thousands, streamline data readability. These refinements aim to improve the interpretative clarity of the graph, ensuring that the depiction of crime trends in Seattle for 2022 is both accurate and user-friendly. 
-### Graph 2: Monthly Crime Trends in Seattle for the Year 2022.
+###  Monthly Crime Trends in Seattle for the Year 2022.
 
 #### Goal:
 The goal of the plot is to analyze and discern the pattern of crime incidents in Seattle throughout the recent complete year, 2022. This year is selected to reflect the current crime situation, providing a true representation of the fluctuations in crime rates by season helps in understanding the safety and security within the city.
