@@ -5,7 +5,7 @@ reading_order: 2
 ---
 
 
-- [Github Code Repository](https://github.com/akankshasharmadid/Harmful-Substance-Prediction-Among-Youth)
+[Github Code Repository](https://github.com/akankshasharmadid/Harmful-Substance-Prediction-Among-Youth)
 
 
 **Predicting Use of Harmful Substances Based on Parental Involvement, Religious Beliefs, and Education**
