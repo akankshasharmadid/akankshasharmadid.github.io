@@ -4,6 +4,9 @@ excerpt: "The analysis presents a comprehensive analysis of crime distribution a
 
 ---
 
+
+- [Github Code Repository](https://github.com/akankshasharmadid/SeattleCrimeAnalysis)
+- 
 # Introduction:
 
 This report presents a comprehensive analysis of crime distribution and trends in the city of Seattle for the years 2008 to 2022, emphasizing year 2022 to understand the present crime dynamics in Seattle, by utilizing a robust dataset obtained from the Seattle Police Department. The dataset is a rich amalgamation of information, detailing the types of offenses, the locations where they occurred, the times at which they took place, and other critical variables that give a multi-dimensional view of criminal activity within the city.
@@ -28,6 +31,8 @@ The rationale behind aggregating points into larger areas is twofold: it provide
 ### Goal:
 The main goal of the graph is to examine the trend in crime rates from 2008 to 2022. Through this visualization, we seek to detect and comprehend any clear patterns or shifts in crime statistics.
 
+![Figure 1: Crime Trends In Seattle ](/images/CrimeTrends.png)
+
 
 ### Observations:
 Over a span of 14 years, the crime statistics exhibit an overall upward trajectory. Notably, in 2011, there was a significant decrease in crime rates, but this was followed by a sharp escalation in 2012. The highest level of crime was recorded in 2014, after which there was a marginal decline. The year 2019 marked another, though less pronounced, decrease in crime. Interestingly, in 2020, coinciding with the onset of the Covid-19 pandemic, there was a surge in crime rates, reminiscent of the peak observed in 2014. The latest data from 2022 indicates a persistent rise in criminal activities, suggesting a need for in-depth analysis to uncover the driving factors behind this trend.
@@ -35,13 +40,15 @@ Over a span of 14 years, the crime statistics exhibit an overall upward trajecto
 ### Justification of the graph:
 The purpose of this graph is to visually depict the trend in crime incidents over the years from 2008 to 2022 in the dataset. The x-axis represents each individual year, while the y-axis quantifies the count of reported crimes. By utilizing a line chart, the graph allows for a clear and intuitive understanding of how the overall volume of crimes has changed over the specified time period. The upward or downward trajectory of the line provides a quick visual assessment of whether crime rates have increased, decreased, or remained relatively stable throughout the years. The chart's simplicity and increased line thickness make it stand out with more clarity and make it an effective tool for communicating complex temporal patterns in crime data to a diverse audience.
 
-We have also made strategic enhancements such as callout text to underscore crime trends. The modified y-axis ticks, where 'k' denotes thousands, streamline data readability. These refinements aim to improve the interpretative clarity of the graph, ensuring that the depiction of crime trends in Seattle for 2022 is both accurate and user-friendly. 
+We have also made strategic enhancements such as callout text to underscore crime trends. The modified y-axis ticks, where 'k' denotes thousands, streamline data readability. These refinements aim to improve the interpretative clarity of the graph, ensuring that the depiction of crime trends in Seattle for 2022 is both accurate and user-friendly.
+
 ##  Monthly Crime Trends in Seattle for the Year 2022.
 
 ### Goal:
 The goal of the plot is to analyze and discern the pattern of crime incidents in Seattle throughout the recent complete year, 2022. This year is selected to reflect the current crime situation, providing a true representation of the fluctuations in crime rates by season helps in understanding the safety and security within the city.
 
- 
+ ![Figure 2: Month Crime Trends: 2022](/images/MonthCrimeTredns.png)
+
 
 ### Observation:
 The graph illustrating crime counts in Seattle for the year 2022 reveals a distinct seasonal trend in criminal activity. The year begins with higher crime rates in the winter months, which then dip towards the end of the season. With the arrival of spring, there is a marked rise in crime, peaking notably in May. This peak could be attributed to various factors, such as increased outdoor activity during the milder weather. As summer commences, the data shows considerable fluctuation, with a significant downturn in July, which swiftly reverses into another peak in August, suggesting a possible connection to seasonal social dynamics or events. Following this, there is a sharp decline as autumn approaches, culminating in the lowest crime rates of the year towards the end of fall. 
@@ -58,6 +65,7 @@ This contextual adjustment makes the data more relatable and easier to understan
 ### Goal:
 The goal of creating this graph is to present a clear and quantifiable comparison of the top 10 criminal types in Seattle, highlighting which types of crimes are most prevalent. 
 
+![Figure 3: Top 10 Crimes in Seattle](/images/Top10Crimes.png)
 
  
 ### Observation:
@@ -74,6 +82,7 @@ The horizontal orientation of the bar chart is deliberately chosen to align with
 ### Goal: 
 The motivation for creating this graph is to analyze and compare the median reporting times for various crime types.
 
+![Figure 4: Median Reporting Time](/images/MedianReportingTime.png)
  
 
 ### Observation:
@@ -93,7 +102,8 @@ The bar chart effectively conveys median reporting times for different crime typ
 ### Goal:
 The goal of plotting the graph is to provide a comparative visual analysis of the frequency of assault offenses and burglary/breaking & entering incidents across various neighborhoods. By mapping these two specific crime types in a scatter plot, it allows for an immediate visual assessment of which neighborhoods are more prone to certain crimes. 
 
- 
+ ![Figure 5: Crime Comparison Across Micro Communities](/images/CrimeComparisonMicroCommunities.png)
+
 
 ### Observation:
 From the plot, neighborhoods such as Queen Anne and Capitol Hill stand out with a high number of both assault offenses and burglaries, signaling them as potential hotspots for criminal activity. Conversely, neighborhoods with points clustered towards the origin of the axes exhibit lower frequencies of these crimes.
@@ -109,7 +119,8 @@ The plot effectively uses a two-dimensional plane to allow for an immediate visu
 ### Goal:
 The goal of the plot appears to be to visually represent the frequency of crime incidents across different neighborhoods in Seattle. 
 
- 
+ ![Figure 6: Geographic Distribution of Crime Rates](/images/GeoDistributionSeattle.png)
+
 
 ### Observation:
 Neighborhoods with the highest crime count are: Queen Anne and Capitol Hill. Some of their surrounding neighborhoods are also on top of the list, like Cascade/Eastlake, Downtown and First Hill, while North Capitol Hill and Miller Park have the lowest crime incidents. However, this visual might not fairly compare neighborhoods since they have different demographic and differs in sizes.
@@ -125,7 +136,8 @@ The visual presentation comprises three distinct components. On the left side, a
 ### Goal:
 Acknowledging the limit of graph 6, the report normalizes the crime frequency with population, using crime rate per capita (per 1000) as a new metrics to compare between neighborhoods.
 
- 
+ ![Figure 7: Crime Density Per Square Miles](/images/CrimeDensityInSeattle.png)
+
 
 ### Observation:
 While Queen Anne being highest with crime frequency, the normalization by population reveals that the industrial side of town, SODO and Georgetown contains higher crime per capita (per 1000 residents)
@@ -139,7 +151,8 @@ The map itself is another choropleth map, which we have already justified for it
 ### Goal:
 Continuing the series of metrics to for neighborhood comparison from graph 6 and 7, graph 8 introduces normalization by areas to compute Crime density (per square miles).
 
- 
+ ![Figure 8: Crime Per Captia Seattle](/images/CrimePerCapitaSeattle.png)
+
 
 ### Observation:
 The highest crime density (per square miles) neighborhoods are Downtown, Capitol Hill, Belltown, and Pioneer Square/International District. While Queen Anne has highest with crime frequency, it is the lowest on other metrics like crime per capita or crime density.
@@ -153,7 +166,8 @@ The map itself is another choropleth map, which we have already justified for it
 The goal of the plot is to analyze and illustrate the relationship between population density and the crime count within various neighborhoods in Seattle. It aims to determine if a higher population density correlates with a higher number of reported crimes. 
 
 
- 
+ ![Figure 9: Correlation Between Population Desnity and Crime Count](/images/CrimeCountAndPopDensity.png)
+
 
 ## Observation:
 There is a potential relationship between population density and crime count in Seattle neighborhoods, which are positive.
@@ -170,7 +184,8 @@ To provide context, the graph features text encodings displaying the five neighb
 ### Goal:
 Analyzing the earlier graphs reveals that downtown areas rank highest in terms of identified regions with high crime rates, whether assessed through high-crime areas, per capita analysis, or per square mile analysis. Hence, this visualization will help in exploring the specific blocks contributing to crime in the downtown area.
 
- 
+ ![Figure 10: Downtown Crime Count Distribution](/images/DowntownSeattleCrime.png)
+
 
 ### Observation:
 In graph 9, the block bordered by Pike St, 3rd Ave, Union St, and 2nd Ave is with highest shade of red, while the surrounding areas are paler in color. This spot alone is accountable for 308 crime incidents in 2022, 13.14% of all incidents in Downtown neighborhood.
