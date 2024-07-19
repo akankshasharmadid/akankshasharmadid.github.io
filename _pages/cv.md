@@ -9,6 +9,7 @@ redirect_from:
 - Email: akankshasharmadid@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/akanksha-12831bb1/)
 - [GitHub](https://github.com/akankshasharmadid)
+- [Leetcode](https://leetcode.com/akanksha185/)
 
 
 Data Scientist with 4 years of experience in building and deploying ML models and data engineering/ETL pipelines with various tools and technologies, including Python, SQL, and cloud platforms. Proficient in implementing data-driven solutions to real-world business problems using Statistical analysis, Data visualization, and Data management.
@@ -65,16 +66,13 @@ December 2016 – January 2017
 - Led the redesign of data lake architecture for a new web application during migration, using an Entity-Relationship (ER) diagram resulting in efficient data retrieval and reduced deduplication by 75%.
 - Designed a targeted campaign framework, using Google Analytics, to identify focus regions based on website traffic and user behavior for sales and marketing teams, increasing revenue-per-sale by 60%.
 
-## Portfolio
-
-- Link to my: [Portfolio](https://akankshasharmadid.github.io/portfolio/)
 
 
 ## EDUCATION
 
 - **Seattle University**
   - *MS in Data Science* (September 2022 – Present)
-  - CGPA: 3.93/4 (2x Dean’s Honor List)
+  - CGPA: 3.93/4 (4x Dean’s Honor List)
   - Relevant Coursework: Statistical Inference, A/B Testing, Data Visualization, Text Processing, Big Data & Analytics.
 
 - **VIT University**
