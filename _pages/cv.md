@@ -17,7 +17,8 @@ Data Scientist with 4 years of experience in building and deploying ML models an
 ## SKILLS
 <B>Data Science: </B> Proficient in building Machine Learning pipelines, experienced in working on Regression Analysis, Time-Series data, Clustering Algorithms, Topic Modeling, Sentiment Analysis, Random Forests, A/B Testing, Scikit-Learn  
 <B>Data Visualization:</B> Tableau, PowerBI, Excel Dashboard  
-<B>Programming and Databases:</B> SQL, Python (NumPy, Pandas, sklearn , plotly), R (Tidyverse, ggplot), Seaborn Soft Skills: Effective Trainer, Collaborative Stakeholder Engagement, Cross-Functional Teamwork, Independent Problem-Solver  
+<B>Programming and Databases:</B> SQL, Python (NumPy, Pandas, sklearn , plotly), R (Tidyverse, ggplot), Seaborn 
+<B>Soft Skills:</B> Effective Trainer, Collaborative Stakeholder Engagement, Cross-Functional Teamwork, Independent Problem-Solver  
 
 
 
