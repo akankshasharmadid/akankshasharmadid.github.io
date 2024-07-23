@@ -1,7 +1,7 @@
 ---
 title: "Analysis of Crime Trend in Seattle"
 excerpt: "The analysis presents a comprehensive analysis of crime distribution and trends in the city of Seattle for the years 2008 to 2022, emphasizing year 2022 to understand the present crime dynamics in Seattle, by utilizing a robust dataset obtained from the Seattle Police Department. The dataset is a rich amalgamation of information, detailing the types of offenses, the locations where they occurred, the times at which they took place, and other critical variables that give a multi-dimensional view of criminal activity within the city.<br/>"
-
+reading_order: 1
 ---
 
 
